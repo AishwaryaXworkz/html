@@ -1,0 +1,344 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="youtube1.css">
+    <title>YouTube</title>
+</head>
+<body>
+    <nav class="navigation">
+        <div class="navigation__menu">
+            <!-- menu button -->
+            <button class="navigation__button navigation__menu__button">
+                <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false"><g><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></g></svg>
+            </button>
+
+            <!-- youtube logo -->
+            <img src="https://logodownload.org/wp-content/uploads/2014/10/youtube-logo-0.png" width="90vh" height="90vh"  alt="youTube logo">
+        </div>
+
+        <div class="navigation__search">
+            <!-- search field -->
+            <input type="search" placeholder="Search">
+
+            <!-- search button -->
+            <button class="navigation__button navigation__search__icon">
+                <svg viewBox="0 0 24 24" class="navigation__icon">
+                    <g>
+                        <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z" ></path>
+                    </g>
+                </svg>
+            </button>
+            <!-- voice button -->
+            <button class="navigation__button">
+                <svg viewBox="0 0 24 24" class="navigation__icon"><g ><path d="M12 14c1.66 0 2.99-1.34 2.99-3L15 5c0-1.66-1.34-3-3-3S9 3.34 9 5v6c0 1.66 1.34 3 3 3zm5.3-3c0 3-2.54 5.1-5.3 5.1S6.7 14 6.7 11H5c0 3.41 2.72 6.23 6 6.72V21h2v-3.28c3.28-.48 6-3.3 6-6.72h-1.7z" ></path></g></svg>
+            </button>
+        </div>
+
+        <div class="navigation__options">
+            <!-- create button -->
+            <button class="navigation__button">
+                <svg viewBox="0 0 24 24" class="navigation__icon"><g><path d="M17 10.5V7c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11l-4 4zM14 13h-3v3H9v-3H6v-2h3V8h2v3h3v2z" ></path></g></svg>
+            </button>
+            <!-- youtube apps button -->
+            <button class="navigation__button">
+                <svg viewBox="0 0 24 24" class="navigation__icon"><g><path d="M4 8h4V4H4v4zm6 12h4v-4h-4v4zm-6 0h4v-4H4v4zm0-6h4v-4H4v4zm6 0h4v-4h-4v4zm6-10v4h4V4h-4zm-6 4h4V4h-4v4zm6 6h4v-4h-4v4zm0 6h4v-4h-4v4z"></path></g></svg>
+            </button>
+            <!-- notifications button -->
+            <button class="navigation__button">
+                <svg viewBox="0 0 24 24" class="navigation__icon"><g><path d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2zm6-6v-5c0-3.07-1.64-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.63 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2z"></path></g></svg>
+            </button>
+            <!-- user avatar -->
+            <div class=""><img class="feed__item__info__avatar" alt=""  src="https://yt3.ggpht.com/yti/AOXPAcU3zg72owCJedOS_MueKAi-wYMSWokjZ3zysA=s88-c-k-c0x00ffffff-no-rj" height="20vh" width="20vh"> </div>
+                <div>
+        </div>
+    </nav>
+
+    <!-- chips -->
+    <div class="chips">
+        <div class="chips__item chips__item--selected">
+            All
+        </div>
+        <div class="chips__item">
+            Mixes
+        </div>
+        <div class="chips__item">
+            Music
+        </div>
+        <div class="chips__item">
+            Tamil Cinema
+        </div>
+        <div class="chips__item">
+            Computer Programming
+        </div>
+        <div class="chips__item">
+            Filmi
+        </div>
+        <div class="chips__item">
+            Job Interviews
+        </div>
+        <div class="chips__item">
+            Korean dramas
+        </div>
+        <div class="chips__item">
+            Live
+        </div>
+        <div class="chips__item">
+            Indian Soap operas
+        </div>
+        <div class="chips__item">
+            send feedback
+        </div>
+    </div>
+
+    <!-- SIDE NAVIGATION -->
+    <div class="sidebar">
+        <section class="sidebar__section">
+            <a class="sidebar__section__link sidebar__section__link--selected" href="/">
+                <svg viewBox="0 0 24 24"><g><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8"></path></g></svg>
+                <span>
+                    Home
+                </span>
+            </a>
+            <a class="sidebar__section__link" href="/">
+                <svg viewBox="0 0 24 24"><g><path d="M11.23 13.08c-.29-.21-.48-.51-.54-.86-.06-.35.02-.71.23-.99.21-.29.51-.48.86-.54.35-.06.7.02.99.23.29.21.48.51.54.86.06.35-.02.71-.23.99a1.327 1.327 0 01-1.08.56c-.28 0-.55-.08-.77-.25zM22 12c0 5.52-4.48 10-10 10S2 17.52 2 12 6.48 2 12 2s10 4.48 10 10zm-3.97-6.03L9.8 9.8l-3.83 8.23 8.23-3.83 3.83-8.23z"></path></g></svg>
+                <span>
+                    Explore
+                </span>
+            </a>
+            <a class="sidebar__section__link" href="/">
+                <svg viewBox="0 0 24 24"><g><path d="M18.7 8.7H5.3V7h13.4v1.7zm-1.7-5H7v1.6h10V3.7zm3.3 8.3v6.7c0 1-.7 1.6-1.6 1.6H5.3c-1 0-1.6-.7-1.6-1.6V12c0-1 .7-1.7 1.6-1.7h13.4c1 0 1.6.8 1.6 1.7zm-5 3.3l-5-2.7V18l5-2.7z"></path></g></svg>
+                <span>
+                    Subscriptions
+                </span>
+            </a>
+            <a class="sidebar__section__link" href="/">
+                <svg viewBox="0 0 24 24"><g><path fill-rule="nonzero" d="M21.78 8s-.2-1.37-.8-1.97c-.75-.8-1.6-.8-2-.85C16.2 4.98 12 5 12 5s-4.18-.02-6.97.18c-.4.05-1.24.05-2 .85-.6.6-.8 1.97-.8 1.97s-.2 1.63-.23 3.23v1.7c.03 1.6.23 3.2.23 3.2s.2 1.4.8 2c.76.8 1.75.76 2.2.85 1.57.15 6.6.18 6.77.18 0 0 4.2 0 7-.2.38-.04 1.23-.04 2-.84.6-.6.8-1.98.8-1.98s.2-1.6.2-3.22v-1.7c-.02-1.6-.22-3.22-.22-3.22zm-11.8 7V9.16l5.35 3.03L9.97 15z"></path></g></svg>
+                <span>
+                    Originals
+                </span>
+            </a>
+            <a class="sidebar__section__link" href="/">
+                <svg viewBox="0 0 24 24"><g><path d="M12 0.47998C5.63998 0.47998 0.47998 5.63998 0.47998 12C0.47998 18.36 5.63998 23.52 12 23.52C18.36 23.52 23.52 18.36 23.52 12C23.52 5.63998 18.36 0.47998 12 0.47998ZM12 18.82C8.22998 18.82 5.17998 15.77 5.17998 12C5.17998 8.22998 8.22998 5.17998 12 5.17998C15.77 5.17998 18.82 8.22998 18.82 12C18.82 15.77 15.77 18.82 12 18.82Z" fill-rule="nonzero"></path><path d="M12 6.02002C8.70996 6.02002 6.01996 8.70002 6.01996 12C6.01996 15.3 8.69996 17.98 12 17.98C15.3 17.98 17.98 15.3 17.98 12C17.98 8.70002 15.29 6.02002 12 6.02002ZM9.74996 15.4V8.60002L15.63 12L9.74996 15.4Z" fill-rule="nonzero"></path></g></svg>
+                <span>
+                    YouTube Music
+                </span>
+            </a>
+        </section>
+
+        <section class="sidebar__section">
+            <a class="sidebar__section__link" href="/">
+                <svg viewBox="0 0 24 24"><g><path fill="none" d="M0 0h24v24H0z"></path><path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8 12.5v-9l6 4.5-6 4.5z"></path></g></svg>
+                <span>Library</span>
+            </a>
+
+            <a class="sidebar__section__link" href="/">
+                <svg viewBox="0 0 24 24"><g><path d="M11.9 3.75c-4.55 0-8.23 3.7-8.23 8.25H.92l3.57 3.57.04.13 3.7-3.7H5.5c0-3.54 2.87-6.42 6.42-6.42 3.54 0 6.4 2.88 6.4 6.42s-2.86 6.42-6.4 6.42c-1.78 0-3.38-.73-4.54-1.9l-1.3 1.3c1.5 1.5 3.55 2.43 5.83 2.43 4.58 0 8.28-3.7 8.28-8.25 0-4.56-3.7-8.25-8.26-8.25zM11 8.33v4.6l3.92 2.3.66-1.1-3.2-1.9v-3.9H11z"></path></g></svg>
+                <span>History</span>
+            </a>
+
+            <a class="sidebar__section__link" href="/">
+                <svg viewBox="0 0 24 24"><g><path d="M18.4 5.6v12.8H5.6V5.6h12.8zm0-1.8H5.6a1.8 1.8 0 0 0-1.8 1.8v12.8a1.8 1.8 0 0 0 1.8 1.9h12.8a1.8 1.8 0 0 0 1.9-1.9V5.6a1.8 1.8 0 0 0-1.9-1.8z"></path><path d="M10.2 9v6.5l5-3.2-5-3.2z"></path></g></svg>
+                <span>Your Videos</span>
+            </a>
+
+            <a class="sidebar__section__link" href="/">
+                <svg viewBox="0 0 24 24"><g><path d="M12 3.67c-4.58 0-8.33 3.75-8.33 8.33s3.75 8.33 8.33 8.33 8.33-3.75 8.33-8.33S16.58 3.67 12 3.67zm3.5 11.83l-4.33-2.67v-5h1.25v4.34l3.75 2.25-.67 1.08z"></path></g></svg>
+                <span>Watch later</span>
+            </a>
+
+            <a class="sidebar__section__link" href="/">
+                <svg viewBox="0 0 24 24"><g><path d="M3.67 8.67h14V11h-14V8.67zm0-4.67h14v2.33h-14V4zm0 9.33H13v2.34H3.67v-2.34zm11.66 0v7l5.84-3.5-5.84-3.5z"></path></g></svg>
+                <span>Your Playlists</span>
+            </a>
+
+            <a class="sidebar__section__link" href="/">
+                <svg viewBox="0 0 24 24"><g><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></g></svg>
+                <span>Show more</span>
+            </a>
+
+        </section>
+
+        <section class="sidebar__section">
+            <h3>Subscriptions</h3>
+            <a class="sidebar__section__link" href="https://www.youtube.com/channel/UCTCBO9YrdGSHUCTgz4nuevQ">
+                <div class=""><img class="feed__item__info__avatar" alt=""  src="https://yt3.googleusercontent.com/UMqozcXhTE5n5NjlARMjnFZUNLixc7lzMsfakQn2SXaRG-OAPKHpBKQ7RXxqik9HDcfDFVDNFQ=s900-c-k-c0x00ffffff-no-rj"> </div>
+                <span>TV 9 Kannada</span>
+            </a>
+            <a class="sidebar__section__link" href="https://www.youtube.com/channel/UCTCBO9YrdGSHUCTgz4nuevQ">
+                <div class=""><img class="feed__item__info__avatar" alt=""  src="data:image/jpeg;base64,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"> </div>
+                <span>Warangal Vandana</span>
+            </a>
+        </section>
+
+        <section class="sidebar__section">
+            <h3>More from YouTube</h3>
+            <a href="/" class="sidebar__section__link">
+                <svg viewBox="0 0 24 24"><g><path d="M18 3v2h-2V3H8v2H6V3H4v18h2v-2h2v2h8v-2h2v2h2V3h-2zM8 17H6v-2h2v2zm0-4H6v-2h2v2zm0-4H6V7h2v2zm10 8h-2v-2h2v2zm0-4h-2v-2h2v2zm0-4h-2V7h2v2z"></path><path d="M0 0h24v24H0z" fill="none"></path></g></svg>
+                <span>
+                    Movies & Shows
+                </span>
+            </a>
+            <a href="/" class="sidebar__section__link">
+                <svg viewBox="0 0 24 24"><g fill-rule="evenodd"><path d="M22,13V8l-5-3l-5,3l0,0L7,5L2,8v5l10,6L22,13z M9,11H7v2H6v-2H4v-1h2V8h1v2h2V11z M15,13 c-0.55,0-1-0.45-1-1s0.45-1,1-1s1,0.45,1,1S15.55,13,15,13z M18,11c-0.55,0-1-0.45-1-1s0.45-1,1-1s1,0.45,1,1S18.55,11,18,11z"></path></g></svg>
+                <span>
+                    Gaming
+                </span>
+            </a>
+            <a href="/" class="sidebar__section__link">
+                <svg viewBox="0 0 24 24"><g><path d="M16.94 6.91l-1.41 1.45c.9.94 1.46 2.22 1.46 3.64s-.56 2.71-1.46 3.64l1.41 1.45c1.27-1.31 2.05-3.11 2.05-5.09s-.78-3.79-2.05-5.09zM19.77 4l-1.41 1.45C19.98 7.13 21 9.44 21 12.01c0 2.57-1.01 4.88-2.64 6.54l1.4 1.45c2.01-2.04 3.24-4.87 3.24-7.99 0-3.13-1.23-5.96-3.23-8.01zM7.06 6.91c-1.27 1.3-2.05 3.1-2.05 5.09s.78 3.79 2.05 5.09l1.41-1.45c-.9-.94-1.46-2.22-1.46-3.64s.56-2.71 1.46-3.64L7.06 6.91zM5.64 5.45L4.24 4C2.23 6.04 1 8.87 1 11.99c0 3.13 1.23 5.96 3.23 8.01l1.41-1.45C4.02 16.87 3 14.56 3 11.99s1.01-4.88 2.64-6.54z"></path><circle cx="12" cy="12" r="3"></circle></g></svg>
+                <span>
+                    Live
+                </span>
+            </a>
+            <a href="/" class="sidebar__section__link">
+                <svg viewBox="0 0 24 24"><g><path d="M9 21c0 .5.4 1 1 1h4c.6 0 1-.5 1-1v-1H9v1zm3-19C8.1 2 5 5.1 5 9c0 2.4 1.2 4.5 3 5.7V17c0 .5.4 1 1 1h6c.6 0 1-.5 1-1v-2.3c1.8-1.3 3-3.4 3-5.7 0-3.9-3.1-7-7-7z"></path></g></svg>
+                <span>
+                    Learning
+                </span>
+            </a>
+            <a href="/" class="sidebar__section__link">
+                <svg viewBox="0 0 24 24"><g><path d="M6.85 7.76V6.18H1v2.88c0 2.35 1.9 4.26 4.26 4.26h1.59v-1.59H5.4a2.81 2.81 0 01-2.81-2.8V7.75h4.26zM17.15 7.76V6.18H23v2.88c0 2.35-1.9 4.26-4.26 4.26h-1.59v-1.59h1.45a2.81 2.81 0 002.81-2.8V7.75h-4.26z"></path><path d="M12 17.29a6.87 6.87 0 01-6.87-6.87V3h13.74v7.42c0 3.8-3.07 6.87-6.87 6.87z"></path><path d="M12 17.29V3h6.87v7.42c0 3.8-3.07 6.87-6.87 6.87zM12 17.29l4.13 2.38H7.88L12 17.3zM16.13 19.67H7.88v2.38h8.25v-2.38z"></path></g></svg>
+                <span>
+                    Sports
+                </span>
+            </a>
+        </section>
+
+        <section class="sidebar__section">
+            <a href="/" class="sidebar__section__link">
+                <svg viewBox="0 0 24 24"><g><path d="M19.43 12.98c.04-.32.07-.64.07-.98s-.03-.66-.07-.98l2.1-1.65c.2-.15.25-.42.13-.64l-2-3.46c-.12-.22-.4-.3-.6-.22l-2.5 1c-.52-.4-1.08-.73-1.7-.98l-.37-2.65c-.06-.24-.27-.42-.5-.42h-4c-.27 0-.48.18-.5.42l-.4 2.65c-.6.25-1.17.6-1.7.98l-2.48-1c-.23-.1-.5 0-.6.22l-2 3.46c-.14.22-.08.5.1.64l2.12 1.65c-.04.32-.07.65-.07.98s.02.66.06.98l-2.1 1.65c-.2.15-.25.42-.13.64l2 3.46c.12.22.4.3.6.22l2.5-1c.52.4 1.08.73 1.7.98l.37 2.65c.04.24.25.42.5.42h4c.25 0 .46-.18.5-.42l.37-2.65c.6-.25 1.17-.6 1.7-.98l2.48 1c.23.1.5 0 .6-.22l2-3.46c.13-.22.08-.5-.1-.64l-2.12-1.65zM12 15.5c-1.93 0-3.5-1.57-3.5-3.5s1.57-3.5 3.5-3.5 3.5 1.57 3.5 3.5-1.57 3.5-3.5 3.5z"></path></g></svg>
+                <span>
+                    Settings
+                </span>
+            </a>
+            <a href="/" class="sidebar__section__link">
+                <svg viewBox="0 0 24 24"><g><path d="M14.4 6L14 4H5v17h2v-7h5.6l.4 2h7V6z"></path></g></svg>
+                <span>
+                    Report history
+                </span>
+            </a>
+            <a href="/" class="sidebar__section__link">
+                <svg viewBox="0 0 24 24"><g><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H8c0-2.21 1.79-4 4-4s4 1.79 4 4c0 .88-.36 1.68-.93 2.25z"></path></g></svg>
+                <span>
+                    Help
+                </span>
+            </a>
+            <a href="/" class="sidebar__section__link">
+                <svg viewBox="0 0 24 24"><g><path d="M0 0h24v24H0z" fill="none"></path><path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-7 12h-2v-2h2v2zm0-4h-2V6h2v4z"></path></g></svg>
+                <span>
+                    Send feedback
+                </span>
+            </a>
+        </section>
+        <section class="sidebar__section">
+        </section>
+    </div>
+
+    <!-- ALL THE VIDEOS -->
+    <main class="feed">
+        <div class="feed__item">
+		  <a href="https://www.youtube.com/watch?v=dDMXyQ6cwIc">
+            <div class=""><img src="https://moviekoop.com/Images/Cover_Photos/sapta-sagaradaache-yello-kannada-movie-poster.jpg" width="380vh" height="180vh"></div>
+           </a>
+			<div class="feed__item__info">
+                <div class=""><img class="feed__item__info__avatar" alt=""  src="https://yt3.ggpht.com/ytc/AOPolaSVLSNOzsAG4kQlQo9tW6SZY-LKNKQZE0HD-SJ4wg=s88-c-k-c0x00ffffff-no-rj"> </div>
+                <div>
+                    <h3>
+                         <a href="https://www.youtube.com/watch?v=JXl4QgYUi9c&t=1s"> sapta-sagaradaache-yello |<br> Rakshit Sheety |Rukmin <br> Hemanth M Rao |</a>
+                    </h3>
+                    <a href="https://www.youtube.com/channel/UCTCBO9YrdGSHUCTgz4nuevQ">Paramvah Music</a>
+                    <p> 2M Views · 8 Aug 2023</p>
+                </div>
+            </div>
+        </div>
+		 <div class="feed__item">
+		  <a href="https://www.youtube.com/watch?v=TCAO95AmyXc">
+            <div class=""><img src="https://a10.gaanacdn.com/gn_img/albums/01A3mar3NQ/1A3mzoRjWN/size_m_1640167597.webp" width="380vh" height="180vh"></div>
+            </a>
+			<div class="feed__item__info">
+                <div class=""><img class="feed__item__info__avatar" alt=""  src="https://yt3.ggpht.com/ytc/AOPolaRrj_fUgUFqqNFw9I9dbD8SUSM08Q0AMedXDSAZ1Q=s88-c-k-c0x00ffffff-no-rj"> </div>
+                <div>
+                    <h3>
+                      <a href="https://www.youtube.com/watch?v=JXl4QgYUi9c&t=1s"> Nana Mele Nanageega Video Song |<br>  Kannadakkagi Ondannu Otti Kannada Movie|<br>Arjun janya</a>
+                    </h3>
+                    <a href="https://www.youtube.com/channel/UCTCBO9YrdGSHUCTgz4nuevQ">Pancharangi Audio</a>
+                    <p> 30K Views · 10 july 2018</p>
+                </div>
+            </div>
+        </div>
+
+       <div class="feed__item">
+	     <a href="https://www.youtube.com/watch?v=7ZW8hthGL0U">
+            <div class=""><img src="https://m.media-amazon.com/images/M/MV5BMWI2Zjk4YzAtYjM4OC00OTY0LWFjMGUtZTkzM2MzNzIzYWJmXkEyXkFqcGdeQXVyOTcyODI0NTM@._V1_.jpg" width="380vh" height="180vh"></div>
+            </a>
+			<div class="feed__item__info">
+                <div class=""><img class="feed__item__info__avatar" alt=""  src="https://yt3.ggpht.com/SJxfk5OKwYiC6MyBkkCcrShjhSHJ5dlXt8j-PlNN03z5lyi1K0cUCChhdKJS8tBWkPJICaVJ4hs=s88-c-k-c0x00ffffff-no-rj"> </div>
+                <div>
+                    <h3>
+                        <a href="https://www.youtube.com/watch?v=NqUQm0EGGQE">DIA - Soul Of Dia (Video Song) | <br>Sanjith Hegde, Chinmayi Sripaada |<br> B. Ajaneesh Loknath | KS Ashoka <br> </a>
+                    </h3>
+                    <a href="https://www.youtube.com/channel/UCTCBO9YrdGSHUCTgz4nuevQ">Divo music</a>
+                    <p> 15K Views · 20 jan 2020</p>
+                </div>
+            </div>
+        </div>
+		<div class="feed__item">
+            <div class="">
+			<a href="https://www.youtube.com/watch?v=epAFDEJImrU">
+			<img src="https://a10.gaanacdn.com/gn_img/song/koMWQ4B3qL/MWQkRa94Kq/size_m_1638793463.webp" width="380vh" height="180vh"></div>
+            </a>
+			<div class="feed__item__info">
+                <div class=""><img class="feed__item__info__avatar" alt=""  src="https://yt3.ggpht.com/ytc/AOPolaQqNvslPpkOOREUNBZeZn9LJNY1TL1hxnFH9GphVw=s88-c-k-c0x00ffffff-no-rj"> </div>
+                <div>
+                    <h3>
+                     <a href="https://www.youtube.com/watch?v=NqUQm0EGGQE">Darshana - Official Video Song | Hridayam | <br>Pranav | Darshana | Vineeth | <br>Hesham | Merryland<br>  </a>
+                    </h3>
+                    <a href="https://www.youtube.com/channel/UCTCBO9YrdGSHUCTgz4nuevQ">Think music</a>
+                    <p> 5M views · 3 Mar 2022</p>
+                </div>
+            </div>
+        </div>
+		<div class="feed__item">
+            <div class="">
+			<a href="https://www.youtube.com/watch?app=desktop&v=N4GFIkcp5Wo" >
+			<img src="https://i.ytimg.com/vi/N4GFIkcp5Wo/mqdefault.jpg"width="380vh" height="180vh"></div>
+            </a>
+			<div class="feed__item__info">
+                <div class=""><img class="feed__item__info__avatar" alt=""  src="https://yt3.ggpht.com/ytc/AOPolaRY9ykqQAyLT65zpBBsGnhLEeBAVhDX3GS7cbgIzg=s88-c-k-c0x00ffffff-no-rj"> </div>
+                <div>
+                    <h3>
+                     <a href="https://www.youtube.com/watch?v=YCWx73EDCAY"> Googly - Bisilu Kudreyondu Full Song Video |<br> Yash<br> Kriti Kharbanda </a>
+                    </h3>
+                    <a href="https://www.youtube.com/channel/UCTCBO9YrdGSHUCTgz4nuevQ">D Beats Music</a>
+                    <p> 18M Views · 05 Aug 2017</p>
+                </div>
+            </div>
+        </div>
+		<div class="feed__item">
+            <div class="">
+			<a href="https://www.youtube.com/watch?v=buKOl_cqgIM" >
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvEBHFuhOkaNNODYaeObskiIdSHSDZqFfQAPHK1pXgL_4blPLaFMl8gySKavheJ2hck7w&usqp=CAU" width="380vh" height="180vh"></div>
+            </a>
+			<div class="feed__item__info">
+                <div class=""><img class="feed__item__info__avatar" alt=""  src="https://yt3.ggpht.com/s0Ag-gk0-empWp4ozJdxmVHn307lY0BT9BaHWRfuwevmSDyy7KouuY7HN7cIHH3h21CtEjvS0g=s88-c-k-c0x00ffffff-no-rj"> </div>
+                <div>
+                    <h3>
+                     <a href="https://www.youtube.com/watch?v=JP5KxGRmnMc">Dayavittu Gamanisi-Marete Hodenu Unplugged|<br> Vasishta Simha | J Anoop Seelin | <br>Rohit Padaki</a>
+                    </h3>
+                    <a href="https://www.youtube.com/channel/UCTCBO9YrdGSHUCTgz4nuevQ">JP Music</a>
+                    <p> 20 lakh views · 29 oct 2016</p>
+                </div>
+            </div>
+        </div>
+
+		
+    </main>
+</body>
+</html>
